@@ -31,7 +31,7 @@ PREFIX_OUTPUT = PREFIX + "output_"
 SUFFIX = ".pickle"
 
 # Root of Memory File System
-MEMORY_FS_ROOT = "/mnt"
+MEMORY_FS_ROOT = "/opt/ml"
 
 NO_PROGRESS, PROGRESS_IN_WORKER, PROGRESS_IN_FUNC, PROGRESS_IN_FUNC_MUL = list(range(4))
 
